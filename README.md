@@ -1,6 +1,6 @@
 # oEmbed for MODX
 
-Embed videos and photos into MODX sites using the oEmbed autodiscover protocol. Forked from the original *oEmbed 0.2-beta* MODX Extra that has a broken transport package.
+Embed videos and photos into MODX sites using the oEmbed autodiscover protocol. Forked from the original *oEmbed 0.2.1-beta* MODX Extra that has a broken transport package.
 
 oEmbed is a format for allowing an embedded representation of a URL on third party sites. The simple API allows a website to display embedded content (such as photos or videos) when a user posts a link to that resource, without having to parse the resource directly.
 
@@ -23,13 +23,13 @@ Use the following options:
 |Parameter|Description|Default|
 |---------|-----------|-------|
 |&strictMatch|||
-|&maxWidth||600|
-|&maxHeight||600|
-|&format||json|
+|&maxWidth|Sets width of container|600|
+|&maxHeight|Sets height of container|600|
+|&format|Sets response format (JSON or XML)|json|
 |&outputMode||full|
 |&discover|||
 |&tpl|(Optional) Use a custom chunk to display content||
-|&url|||
+|&url|URL of what you want to embed||
 
 ## Placeholders
 
@@ -41,11 +41,11 @@ Useful for if you're targeting videos or other items with something like [http:/
 
 |CSS class|Item|
 |---------|----|
-|.oembed||
-|.oembed-photo||
-|.oembed-video||
-|.oembed-rich||
-|.oembed-link||
+|.oembed|Applied to all templates|
+|.oembed-photo|Photo media|
+|.oembed-video|Video media|
+|.oembed-rich|Rich media|
+|.oembed-link|URL media|
 
 ## Supported Sites
 
@@ -66,8 +66,8 @@ Useful for if you're targeting videos or other items with something like [http:/
 
 * Add alternative to silent failing for errors, e.g. YouTube "Unauthorized"
 * Update the list of supported services
-* Add support for (optional) templates/alternative outputs
 * Replace the version that's in the MODX Extras listing with this version
+* Switch over to [NoEmbed](http://www.noembed.com)
 
 ## Credits
 
