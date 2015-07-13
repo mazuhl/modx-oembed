@@ -36,6 +36,7 @@ Use the following options:
 The following placeholders are available in your custom template chunks:
 
 |Placeholder|Description|
+|-----------|-----------|
 |[[+embed]]|Outputs the main `<embed>` content|
 |[[+title]]|Title of the embedded media|
 |[[+author_url]]|Link to media author's profile|
