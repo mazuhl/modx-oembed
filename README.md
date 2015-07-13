@@ -35,6 +35,14 @@ Use the following options:
 
 The following placeholders are available in your custom template chunks:
 
+|Placeholder|Description|
+|[[+embed]]|Outputs the main `<embed>` content|
+|[[+title]]|Title of the embedded media|
+|[[+author_url]]|Link to media author's profile|
+|[[+author_name]]|Media author's name|
+|[[+wrapperWidth]]|From snippet call|
+|[[+wrapperHeight]]|From snippet call|
+
 ## CSS Classes
 
 Useful for if you're targeting videos or other items with something like [http://fitvidsjs.com/](FitVids.js).
