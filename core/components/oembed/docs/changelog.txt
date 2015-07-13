@@ -1,0 +1,19 @@
+Changelog for oEmbed package.
+
+Current: oEmbed 0.2.2 ($LastChangedRevision$, $LastChangedDate$)
+====================================
+-- 0.2.2
+- Rebuilt transport package
+
+-- 0.2.1-beta
+- Added outputMode, fixed custom templates
+
+-- 0.2.0-beta
+- Added plugin for autoembed media for known providers
+
+-- 0.1.1-beta
+- Fixed bug with percentage width
+- Added wrapperWidth to tpl placeholders
+
+-- 0.1.0-beta
+- Initial release (644-1119)
