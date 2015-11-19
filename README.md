@@ -22,12 +22,12 @@ Use the following options:
 
 |Parameter|Description|Default|
 |---------|-----------|-------|
-|&strictMatch|||
+|&strictMatch|Embedded URL can have parameters|false|
 |&maxWidth|Sets width of container|600|
 |&maxHeight|Sets height of container|600|
 |&format|Sets response format (JSON or XML)|json|
-|&outputMode||full|
-|&discover|||
+|&outputMode|Output just the embed response or wrap with extra HTML code|full|
+|&discover|Search for an embed URL|false|
 |&tpl|(Optional) Use a custom chunk to display content||
 |&url|URL of what you want to embed||
 
